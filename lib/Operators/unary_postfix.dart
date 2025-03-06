@@ -11,5 +11,21 @@ class UnaryPostfix {
 // int y = 10;
 // y--;
 // print(y);
+
+// Given the following code, what is the value of a after execution?
+
+// int a = 7;
+// int b = a++;
+
+// print(b);
+
+// Determine the value of c after executing the following code:
+
+// int c = 3;
+// int d = ++c;
+
+// print(c);
+
+
   }
 }
