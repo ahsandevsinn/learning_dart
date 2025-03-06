@@ -1,5 +1,4 @@
 
-import 'package:learning_dart/learning_dart.dart' as learning_dart;
 
 void main() {
   // print('Hello world: ${learning_dart.calculate()}!'); this is a single line comment 
@@ -43,8 +42,12 @@ void main() {
 
 //  const int userAge  = 95;
 //  print(userAge);
-int a = 10;
-// a = NULL;
-print(a);
+// int a = 10;
+// // a = NULL;
+// print(a);
 
+// Evaluate the following expression and determine the value of x after execution:
+// int x = 5;
+// x++;
+// print(x);
 }
