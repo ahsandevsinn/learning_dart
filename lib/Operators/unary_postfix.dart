@@ -26,6 +26,11 @@ class UnaryPostfix {
 
 // print(c);
 
+// What will be the value of e after executing the following code?
+
+// int e = 8;
+// e = e++ + ++e;
+// print(e);
 
   }
 }
