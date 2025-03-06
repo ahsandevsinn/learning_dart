@@ -32,5 +32,12 @@ class UnaryPostfix {
 // e = e++ + ++e;
 // print(e);
 
+
+// Evaluate the following expression and determine the value of f after execution:
+
+// int f = 12;
+// f = f-- - --f;
+// print(f);
+
   }
 }
