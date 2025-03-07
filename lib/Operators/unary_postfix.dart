@@ -39,5 +39,20 @@ class UnaryPostfix {
 // f = f-- - --f;
 // print(f);
 
+// Given the following code, what is the value of g after execution?
+
+// int g = 15;
+// g = g++ ;
+// print(g);
+
+// int a = 5;
+// a++;
+// print(a);
+
+// Determine the value of h after executing the following code:
+
+int h = 20;
+h = h-- + ++h - h++;
+print(h);
   }
 }
