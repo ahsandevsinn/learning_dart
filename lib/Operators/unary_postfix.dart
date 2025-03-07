@@ -51,8 +51,14 @@ class UnaryPostfix {
 
 // Determine the value of h after executing the following code:
 
-int h = 20;
-h = h-- + ++h - h++;
-print(h);
+// int h = 20;
+// h = h-- + ++h - h++;
+// print(h);
+
+// What will be the value of i after executing the following code?
+
+// int i = 25;
+// i = i++ + i-- - ++i + --i;
+// print(i);
   }
 }
