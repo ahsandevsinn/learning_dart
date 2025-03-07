@@ -67,5 +67,11 @@ class UnaryPostfix {
 // j = j++ - --j + ++j - j--;
 
 // print(j);
+
+// Given the following code, what is the value of k after execution?
+
+// int k = 35;
+// k = k++ + k-- - ++k + --k - k++;
+// print(k);
   }
 }
