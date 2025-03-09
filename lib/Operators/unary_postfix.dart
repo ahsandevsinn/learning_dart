@@ -92,5 +92,12 @@ class UnaryPostfix {
 // n = n++ + n-- - ++n + --n - n++ + ++n;
 // n = 50 + 51 - 51 + 50 - 50 + 52;
 // print(n);
+
+// Given the following code, what is the value of o after execution?
+
+// int o = 55;
+// o = o++ - --o + ++o - o-- + --o - ++o;
+// o = 55 - 55 + 56 - 56 + 55 - 56;
+// print(o);
   }
 }
