@@ -85,5 +85,12 @@ class UnaryPostfix {
 // int m = 45;
 // m = m++ - --m + ++m - m-- + --m;
 // print(m);
+
+// Evaluate the following expression and determine the value of n after execution:
+
+// int n = 50;
+// n = n++ + n-- - ++n + --n - n++ + ++n;
+// n = 50 + 51 - 51 + 50 - 50 + 52;
+// print(n);
   }
 }
