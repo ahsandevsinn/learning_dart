@@ -73,5 +73,11 @@ class UnaryPostfix {
 // int k = 35;
 // k = k++ + k-- - ++k + --k - k++;
 // print(k);
+
+//  Determine the value of l after executing the following code:
+
+int l = 40;
+l = l-- + ++l - l++ + --l - ++l;
+print(l);
   }
 }
