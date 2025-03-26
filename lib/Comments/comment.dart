@@ -3,7 +3,22 @@ class Comment {
   // This is a single line comment 
 
   static comment (){
-    double area = 3.14 * 4 * 4;
-    print(area); 
+    // double area = 3.14 * 4 * 4;
+    //  // It prints the area
+    // // of a circle of radius = 4 
+    // print(area); 
+
+  /*
+   These are 
+   multiple line 
+   of comments 
+   */
+
+
+  /// THis is a documented comments
+
+
+
+
   }
 }
