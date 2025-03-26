@@ -13,5 +13,10 @@ class Variables {
     // print(gfg4);
     // print(gfg5);
 
+    // dynamic geek = "Geeks for Geeks";
+    // print(geek);
+    // geek = 2.6;
+    // print(geek);
+
   }
 }
