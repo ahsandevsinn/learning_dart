@@ -32,5 +32,9 @@ class Variables {
     // // geek = "jfjd";
     // print(a);
 
+// int? a;
+// a=null;
+// print(a);
+
   }
 }
