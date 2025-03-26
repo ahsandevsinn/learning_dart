@@ -18,5 +18,12 @@ class Variables {
     // geek = 2.6;
     // print(geek);
 
+
+    final geek1 = "Geeks for Geeks";
+    print(geek1);
+    final String geek2 = "Geeks for Geeks";
+    // final geek1 = "Ahsan";
+    print(geek2);
+
   }
 }
