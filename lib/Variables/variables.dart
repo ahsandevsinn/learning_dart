@@ -19,11 +19,18 @@ class Variables {
     // print(geek);
 
 
-    final geek1 = "Geeks for Geeks";
-    print(geek1);
-    final String geek2 = "Geeks for Geeks";
-    // final geek1 = "Ahsan";
-    print(geek2);
+    // final geek1 = "Geeks for Geeks";
+    // print(geek1);
+    // final String geek2 = "Geeks for Geeks";
+    // // final geek1 = "Ahsan";
+    // print(geek2);
+
+
+    // const geek = "Geeks for Geeks";
+    // print(geek);
+    // const String a = "Geeks for Geeks";
+    // // geek = "jfjd";
+    // print(a);
 
   }
 }
