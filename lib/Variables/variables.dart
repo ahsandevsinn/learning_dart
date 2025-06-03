@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 class Variables {
   static variable (){

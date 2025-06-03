@@ -1,9 +1,7 @@
 class NullSafety {
- static nullSafety(){
-    int? a;
-    print(a);
-
-    List b ;
-   
+  static nullSafety() {
+    int? age;
+    String? name ;
+    age = 20;
   }
 }
