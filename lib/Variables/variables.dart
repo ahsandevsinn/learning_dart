@@ -14,22 +14,30 @@ class Variables {
     //  print(favouriteColors);
     //  print(person);
 
-    String name = "Ahsan";
-    print(name);
+    // String name = "Ahsan";
+    // print(name);
 
-    var userName, age, location;
-int lineCount;
+    // var userName, age, location;
+    // int lineCount;
 
-bool weLikeToCount = true;
-if (weLikeToCount) {
-  lineCount = countLines();
-} 
+    // bool weLikeToCount = true;
+    // if (weLikeToCount) {
+    //   lineCount = countLines();
+    // }
 
-print(lineCount);
-    
-  }
+    // print(lineCount);
+
+    // What is the default value of an uninitialized int in a class in Dart?
   
+
+  var a =  MyValue();
+  print(a.a);
+  // value is null
+  }
 }
-countLines(){
-  return 10;
-}
+
+
+class MyValue {
+  int? a;
+  
+} 
