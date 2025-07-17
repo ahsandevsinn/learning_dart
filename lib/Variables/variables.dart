@@ -40,6 +40,14 @@ class Variables {
     //  person1 = [];
 
     // Note dynamic variable store each data type data on same variable  but var only accept one data type value
-    
+
+    // final and const variable 
+    final user = "Ahsna";
+    // final variable may value sirf aik bar set hoti hai or change nai hoti ye run time const hai iska matlab value program run per check hogi
+
+    const user1 = "Ahsan";
+    // user1 = 1;
+    // const compile time const hai ye program run honay say phalay hi varialbe ki value check karta hai or change nai hota 
+   
   }
 }
