@@ -1,3 +1,5 @@
+import 'package:learning_dart/Variables/variables.dart';
+
 void main(){
-  print("Hello Dart Learner");
+  Variables.variables();
 }
