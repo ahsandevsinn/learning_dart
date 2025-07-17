@@ -49,5 +49,11 @@ class Variables {
     // user1 = 1;
     // const compile time const hai ye program run honay say phalay hi varialbe ki value check karta hai or change nai hota 
    
+  //  late variable 
+  late String userName;
+  userName = "Ahsan";
+  print(userName);
+
+  // late variable is liye use kartay hain ki may variable ki value bad may dounga abhi empty hai isliye may phalay late say variable declare kardo ga phir isko use karnay say phalay initiallize karo ga other wise error throw hoga
   }
 }
