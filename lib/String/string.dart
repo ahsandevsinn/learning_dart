@@ -20,5 +20,7 @@ class StringClasss {
     print(text.substring(5));
 String word = "Dart";
 print(word.substring(1,3));
+String sentence = "My name is Ahsan";
+print(sentence.substring(11));
   }
 }
