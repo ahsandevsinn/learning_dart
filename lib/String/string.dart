@@ -24,5 +24,7 @@ class StringClasss {
 // print(sentence.substring(11));
 String sentence = "Flutter is awesome";
 print(sentence.split(' '));
+String data = "apple,banana,grapes";
+print(data.split(" "));
   }
 }
