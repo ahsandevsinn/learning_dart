@@ -38,5 +38,9 @@ List<String> words = sentence.split(" ");
 
       String email = "user@gmail.com";
       print(email.split("@").last);
+      String url = "https://www.example.com/path/page.html";
+      String domain = url.split("/")[2];
+      print(domain);
+      // print(domain.replaceFirst("www.", " "));
   }
 }
