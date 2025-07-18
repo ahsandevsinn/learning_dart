@@ -4,6 +4,16 @@ class StringClasss {
     String name = "Ahsan";
     int age = 19;
     String user = "My name is $name and my age is $age years old";
-    print(user);
+    print(user.length);
+    print(user.contains("is"));
+    print(user.substring(0,10));
+    print(user.split(" "));
+    print(user.toLowerCase());
+    print(user.toUpperCase());
+    print(user.trim());
+
+    // common methods
+    
+    
   }
 }
