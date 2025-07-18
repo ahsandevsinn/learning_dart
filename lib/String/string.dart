@@ -15,6 +15,8 @@ class StringClasss {
     // common methods
     String name = "Flutter Developer";
     print(name.substring(0,5));
+    print(name.substring(8));
+    String text = "MobileApp";
     
   }
 }
