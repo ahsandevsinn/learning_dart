@@ -13,14 +13,16 @@ class StringClasss {
     // print(user.trim());
 
     // common methods
-    String name = "Flutter Developer";
-    print(name.substring(0,5));
-    print(name.substring(8));
-    String text = "MobileApp";
-    print(text.substring(5));
-String word = "Dart";
-print(word.substring(1,3));
-String sentence = "My name is Ahsan";
-print(sentence.substring(11));
+//     String name = "Flutter Developer";
+//     print(name.substring(0,5));
+//     print(name.substring(8));
+//     String text = "MobileApp";
+//     print(text.substring(5));
+// String word = "Dart";
+// print(word.substring(1,3));
+// String sentence = "My name is Ahsan";
+// print(sentence.substring(11));
+String sentence = "Flutter is awesome";
+print(sentence.split(' '));
   }
 }
