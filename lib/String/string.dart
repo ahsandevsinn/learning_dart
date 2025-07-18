@@ -26,8 +26,12 @@ class StringClasss {
 // print(sentence.split(' '));
 String data = "apple,banana,grapes";
 print(data.split(" "));
-String sentence = "Learning Dart is fun";
-print(sentence.split(" ").length);
-
+// String sentence = "Learning Dart is fun";
+// print(sentence.split(" ").length);
+String sentence = "Hello World Dart";
+List<String> words = sentence.split(" ");
+      List <String>  sen =            words.reversed.toList();
+      sen.join();
+      print(sen.join(" "));
   }
 }
