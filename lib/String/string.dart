@@ -17,6 +17,7 @@ class StringClasss {
     print(name.substring(0,5));
     print(name.substring(8));
     String text = "MobileApp";
-    
+    print(text.substring(5));
+
   }
 }
