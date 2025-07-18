@@ -1,0 +1,9 @@
+class StringClasss {
+  static string(){
+    // string interpolation ka matlab aik string ki ander variable ko add karna isko string interpolation boltay hain
+    String name = "Ahsan";
+    int age = 19;
+    String user = "My name is $name and my age is $age years old";
+    print(user);
+  }
+}

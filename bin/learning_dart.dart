@@ -1,5 +1,7 @@
-import 'package:learning_dart/Variables/variables.dart';
+
+
+import 'package:learning_dart/String/string.dart';
 
 void main(){
-  Variables.variables();
+  StringClasss.string();
 }
