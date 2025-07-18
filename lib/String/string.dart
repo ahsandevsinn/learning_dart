@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class StringClasss {
   static string(){
     // string interpolation ka matlab aik string ki ander variable ko add karna isko string interpolation boltay hain
@@ -33,5 +35,8 @@ List<String> words = sentence.split(" ");
       List <String>  sen =            words.reversed.toList();
       sen.join();
       print(sen.join(" "));
+
+      String email = "user@gmail.com";
+      print(email.split("@").last);
   }
 }
