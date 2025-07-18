@@ -22,9 +22,12 @@ class StringClasss {
 // print(word.substring(1,3));
 // String sentence = "My name is Ahsan";
 // print(sentence.substring(11));
-String sentence = "Flutter is awesome";
-print(sentence.split(' '));
+// String sentence = "Flutter is awesome";
+// print(sentence.split(' '));
 String data = "apple,banana,grapes";
 print(data.split(" "));
+String sentence = "Learning Dart is fun";
+print(sentence.split(" ").length);
+
   }
 }
