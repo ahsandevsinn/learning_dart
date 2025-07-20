@@ -37,5 +37,16 @@ print(ages);
 ages.insertAll(0, [11,12,13,14,15]);
 print(ages);
 
+for (var i = 0; i < ages.length; i++) {
+  print(ages[i]);
+}
+
+for (var age in ages) {
+  print(age);
+}
+
+ages.forEach((age){
+  print("age");
+});
   }
 }
