@@ -1,7 +1,9 @@
 
 
-import 'package:learning_dart/String/string.dart';
+import 'package:learning_dart/List/list.dart';
+
 
 void main(){
-  StringClasss.string();
+  ListClass.list();
+  // StringClasss.string();
 }
