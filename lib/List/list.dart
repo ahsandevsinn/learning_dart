@@ -10,15 +10,29 @@ class ListClass {
     // 🔹 2. Modify List (Add, Remove, Insert)
     List<String> name = ["Hello Khan"];
  name.add("Hello Ahsan");
-    print(name);
+    // print(name);
     name.addAll(["AK,KK,RK"]);
-    print(name);
+    // print(name);
     List<int> ages = [2,5,6,8];
     ages.add(232);
-    print(ages); 
+    // print(ages); 
     ages.addAll([20,34,56]);
-    print(ages);
+    // print(ages);
 
+
+ages.remove(20);
+ages.remove(2);
+print(ages);
+
+ages.removeAt(0);
+print(ages);
+
+ages.removeLast();
+print(ages);
+
+
+ages.clear();
+print(ages);
 
   }
 }
