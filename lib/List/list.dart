@@ -31,7 +31,10 @@ ages.removeLast();
 print(ages);
 
 
-ages.clear();
+ages.insert(0, 10);
+print(ages);
+
+ages.insertAll(0, [11,12,13,14,15]);
 print(ages);
 
   }
