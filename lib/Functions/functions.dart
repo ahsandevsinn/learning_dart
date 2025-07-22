@@ -15,8 +15,14 @@ class Functions {
 
 
 
-  // Optional Named Function
-  static greet({String? name = "Ahsan", int? age = 20}){
+  // // Optional Named Function
+  // static greet({String? name = "Ahsan", int? age = 20}){
+  //   print("name $name , age $age");
+  // }
+
+
+    // Optional Positional Function
+  static greet(String? name, [int? age = 20]){
     print("name $name , age $age");
   }
 
