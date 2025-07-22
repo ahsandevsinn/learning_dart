@@ -13,5 +13,5 @@ import 'package:learning_dart/Operators/relational_operators.dart';
 
 
 void main(){
-Functions.greet(name: "Ahsan",age: 20);
+Functions.greet();
 }
