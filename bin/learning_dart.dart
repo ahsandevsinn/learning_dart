@@ -13,5 +13,5 @@ import 'package:learning_dart/Operators/relational_operators.dart';
 
 
 void main(){
-Functions.greet("Ahsan Khan",34);
+Functions.greet(20, 10);
 }

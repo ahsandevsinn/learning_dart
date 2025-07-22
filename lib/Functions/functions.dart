@@ -21,11 +21,13 @@ class Functions {
   // }
 
 
-    // Optional Positional Function
-  static greet(String? name, [int? age = 20]){
-    print("name $name , age $age");
-  }
+  //   // Optional Positional Function
+  // static greet(String? name, [int? age = 20]){
+  //   print("name $name , age $age");
+  // }
 
+    // Arrow Function
+  static greet(int a,int b) => print(a+b);
 
 
 }
