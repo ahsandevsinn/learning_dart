@@ -16,20 +16,23 @@ class MapClass {
   //   print("name $name");
   // });
 
-Map<String,String> person = {
-  "name" : "Ahsan",
-  "Age" : "19",
-  "height": "5.0"
-};
+// Map<String,String> person = {
+//   "name" : "Ahsan",
+//   "Age" : "19",
+//   "height": "5.0"
+// };
 
-print(person['name']);
+// print(person['name']);
 
-for (var per in person.keys) {
-  print("per $per");
-}
+// for (var per in person.keys) {
+//   print("per $per");
+// }
 
-person.forEach((key,value){
-  print("key $key , value $value");
-});
+// person.forEach((key,value){
+//   print("key $key , value $value");
+// });
+
+// 🔹 List Practice Questions
+// Create a list of 5 numbers. Add two more numbers to it and print the final list.
  }
 }
