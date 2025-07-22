@@ -1,14 +1,30 @@
-// class AssignmentOperators {
+class AssignmentOperators {
   
-//   static operators(){
-//     int a = 5;
-//     int b = 7;
+  static operators(){
+    // int a = 5;
+    // int b = 7;
 
-//     int d;
-//      d ??= a;
+    // int d;
+    //  d ??= a;
 
-//     print(d);
+    // print(d);
 
-//     print(b);
-//   }
-// }
+    // print(b);
+    int a = 5; 
+    print(a);
+    a +=5;
+    print(a);
+    a -=5;
+    print(a);
+   a *=5;
+    print(a);
+    a%=5;
+    print(a);
+  // a /=5;
+  //   print(a);
+
+  // Used to assign values
+
+
+  }
+}
