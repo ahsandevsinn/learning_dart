@@ -8,5 +8,26 @@ class ConditionalStatement {
     } else {
       print("Adult");
     }
+
+
+    String grade = "B";
+    switch (grade){
+      case "A":
+      print("Excellet");
+      break;
+   
+     case "B":
+     print("Good");
+     break;
+
+     case "C":
+     print("normal");
+     break;
+     default:
+     print("Invalid Statements");
+
+    }
+
+
   }
 }
