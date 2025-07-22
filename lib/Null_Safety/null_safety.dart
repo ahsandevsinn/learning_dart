@@ -1,7 +1,16 @@
 class NullSafety {
   static nullSafety() {
-    int? age;
-    String? name ;
-    age = 20;
+//  Nullable
+String? name ;
+if (name != null) {
+  
+print(name);
+}
+
+
+  }
+
+  static greet({required String name}){
+    print("name $name");
   }
 }
