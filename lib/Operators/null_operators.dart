@@ -4,9 +4,7 @@ class NullOperators {
     print(name ?? "Ahsan");
     print(name ??= "ALi");
     print(name.length);
-    if (name !=null) {
-    print(name);
-      
+  print(name);
+    
     }
-  }
 }

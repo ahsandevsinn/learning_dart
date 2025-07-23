@@ -1,11 +1,11 @@
 class Person {
-  String? name ;
-  String? fatherName;
-  int? age ;
+  String name;
+  int age ;
 
-void displayName (){
-  name = "Ahsan";
-  print(name);
-}  
+  Person(this.age,this.name);
+
+
+void user(){
+   print("My name is $name and my age is $age");
+  }
 }
-

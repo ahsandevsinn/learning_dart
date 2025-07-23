@@ -45,8 +45,8 @@ for (var age in ages) {
   print(age);
 }
 
-ages.forEach((age){
+for (var age in ages) {
   print("age");
-});
+}
   }
 }

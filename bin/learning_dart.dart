@@ -1,20 +1,14 @@
 
 
-import 'package:learning_dart/CondtionalStatements/conditional_statement.dart';
-import 'package:learning_dart/Functions/functions.dart';
-import 'package:learning_dart/List/list.dart';
-import 'package:learning_dart/Loop/loop.dart';
-import 'package:learning_dart/Map/map.dart';
 import 'package:learning_dart/Null_Safety/null_safety.dart';
-import 'package:learning_dart/Operators/arithmetic_operator.dart';
-import 'package:learning_dart/Operators/assignment_operators.dart';
-import 'package:learning_dart/Operators/logical_opertors.dart';
-import 'package:learning_dart/Operators/null_operators.dart';
-import 'package:learning_dart/Operators/relational_operators.dart';
+import 'package:learning_dart/OOP/class.dart';
 
 
 void main(){
 // Functions.greet(20, 10);
-NullSafety.nullSafety();
-NullSafety.greet(name: "Ahsan");
+// NullSafety.nullSafety();
+// NullSafety.greet(name: "Ahsan");
+
+var person = Person(02, "Ahsan");
+print(person.name);
 }

@@ -23,8 +23,8 @@ for(var name in names){
 }
 
 
-names.forEach((name){
+for (var name in names) {
   print("count $name");
-});
+}
   }
 }
