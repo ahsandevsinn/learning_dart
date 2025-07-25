@@ -12,7 +12,7 @@
 
 
 class Person {
-  String name;
-  Person(this.name);
+  String? name;
+
   // this is a default constructor
 }
