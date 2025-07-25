@@ -9,6 +9,6 @@ void main(){
 // NullSafety.nullSafety();
 // NullSafety.greet(name: "Ahsan");
 
-var person = Person(02, "Ahsan");
+var person = Person("Hello Ahsan");
 print(person.name);
 }
