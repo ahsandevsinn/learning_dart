@@ -11,8 +11,15 @@
 // }
 
 
-class Person {
-  String? name;
+// class Person {
+//   String? name;
 
-  // this is a default constructor
+//   // this is a default constructor
+// }
+
+
+class Person {
+  String name;
+  Person(this.name,);
+  // this is a named constructor
 }
