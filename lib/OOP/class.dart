@@ -19,7 +19,25 @@
 
 
 class Person {
-  String name;
+ late String name;
   Person(this.name,);
   // this is a named constructor
+
+  Person.value(){
+    this.name = "Ahsan";
+  }
 }
+
+
+// class User {
+//  String name;
+//  int age;
+
+//   User(this.age,this.name);
+
+//   User.user(){
+//     this.name = "Ahsan";
+//     this.age = 29;
+//   }
+  
+// }
