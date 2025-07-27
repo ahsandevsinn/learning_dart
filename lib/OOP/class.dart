@@ -29,15 +29,15 @@ class Person {
 }
 
 
-// class User {
-//  String name;
-//  int age;
+class User {
+late String name;
+late int age;
 
-//   User(this.age,this.name);
+  User(this.age,this.name);
 
-//   User.user(){
-//     this.name = "Ahsan";
-//     this.age = 29;
-//   }
+  User.user(){
+    this.name = "Ahsan";
+    this.age = 29;
+  }
   
-// }
+}
