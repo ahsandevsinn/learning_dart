@@ -4,19 +4,16 @@
 
 //   Person(this.age,this.name);
 
-
 // void user(){
 //    print("My name is $name and my age is $age");
 //   }
 // }
-
 
 // class Person {
 //   String? name;
 
 //   // this is a default constructor
 // }
-
 
 // class Person {
 //  late String name;
@@ -28,43 +25,34 @@
 //   }
 // }
 
-
 // class User {
 // late String name;
 // late int age;
 
 //   User(this.age,this.name);
-//   // this ka use class ki fields ko refer karnay ki liye hota hai 
+//   // this ka use class ki fields ko refer karnay ki liye hota hai
 
 //   User.user(){
 //     this.name = "Ahsan";
 //     this.age = 29;
 //   }
-  
-// }
 
+// }
 
 class Person {
   String? name;
-  int? age ;
+  int? age;
 
-
-  Person setName(String name){
-  this.name = name;
-  return this;
+  Person setName(String name) {
+    this.name = name;
+    return this;
   }
 
-  
-  Person setAge(int age){
-  this.age = age;
-  return this;
-
+  Person setAge(int age) {
+    this.age = age;
+    return this;
   }
-
-
- 
 }
-
 
 class User {
   String? _name;
@@ -73,24 +61,34 @@ class User {
   String get name => _name!;
   int get age => _age!;
 
-  set name(String name){
+  set name(String name) {
     _name = name;
   }
 
-  set age(int age){
+  set age(int age) {
     _age = age;
   }
 
-  void display(){
+  void display() {
     print("name $_name ,age $_age");
   }
-
-
 }
 
 class MyClass {
   static int count = 0;
-  static displayCount (){
+  static displayCount() {
     print("count $count");
   }
 }
+
+class Animal {
+  String? name;
+}
+
+class Dog extends Animal {
+  void display() {
+    print("Dog name is $name");
+  }
+}
+
+

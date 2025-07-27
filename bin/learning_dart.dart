@@ -29,6 +29,9 @@ void main() {
 // user.name = "Ahsan";
 // print(user.name);
 
-print(MyClass.count);
-MyClass.displayCount();
+// print(MyClass.count);
+// MyClass.displayCount();
+Dog dog = Dog();
+dog.name = "Bob";
+print(dog.name);
 }
