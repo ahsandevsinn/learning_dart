@@ -18,26 +18,46 @@
 // }
 
 
-class Person {
- late String name;
-  Person(this.name,);
-  // this is a named constructor
+// class Person {
+//  late String name;
+//   Person(this.name,);
+//   // this is a named constructor
 
-  Person.value(){
-    this.name = "Ahsan";
-  }
-}
+//   Person.value(){
+//     this.name = "Ahsan";
+//   }
+// }
 
 
-class User {
-late String name;
-late int age;
+// class User {
+// late String name;
+// late int age;
 
-  User(this.age,this.name);
+//   User(this.age,this.name);
+//   // this ka use class ki fields ko refer karnay ki liye hota hai 
 
-  User.user(){
-    this.name = "Ahsan";
-    this.age = 29;
-  }
+//   User.user(){
+//     this.name = "Ahsan";
+//     this.age = 29;
+//   }
   
+// }
+
+
+class Person {
+  String? name;
+  int? age ;
+
+
+  Person setName(String name){
+  this.name = name;
+  return this;
+  }
+
+  
+  Person setAge(int age){
+  this.age = age;
+  return this;
+
+  }
 }

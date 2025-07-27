@@ -13,11 +13,15 @@ void main() {
   // var user = User.user();
   // print(user.name);
 // print(per.name);
-var logger = Logger();
-var logger1 = Logger();
-var logger2 = LoggerOne();
-var logger3 = LoggerOne();
+// var logger = Logger();
+// var logger1 = Logger();
+// var logger2 = LoggerOne();
+// var logger3 = LoggerOne();
 
-print(logger == logger1);
-print(logger2 == logger3);
+//n print(logger == logger1);
+// print(logger2 == logger3);
+
+Person per = Person().setName("Ahsan").setAge(10);
+print(per.name);
+print(per.age);
 }
