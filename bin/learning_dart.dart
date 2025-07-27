@@ -42,6 +42,9 @@ void main() {
 // child.parent();
 // child.;
 
-Dog dog = Dog();
-dog.makeSound();
+// Dog dog = Dog();
+// dog.makeSound();
+
+Vehicle vehicle = Vehicle("BMW", "2025");
+print(vehicle.brand);
 }
