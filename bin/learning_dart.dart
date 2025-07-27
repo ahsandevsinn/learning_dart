@@ -1,3 +1,4 @@
+import 'package:learning_dart/Constructor/factory_constructor.dart';
 import 'package:learning_dart/Null_Safety/null_safety.dart';
 import 'package:learning_dart/OOP/class.dart';
 
@@ -9,7 +10,14 @@ void main() {
 // var person = Person("Hello Ahsan");
 // var per = Person.value();
 // var per2 = Person("Ahsan Khan");
-  var user = User.user();
-  print(user.name);
+  // var user = User.user();
+  // print(user.name);
 // print(per.name);
+var logger = Logger();
+var logger1 = Logger();
+var logger2 = LoggerOne();
+var logger3 = LoggerOne();
+
+print(logger == logger1);
+print(logger2 == logger3);
 }
