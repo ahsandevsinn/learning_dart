@@ -35,3 +35,4 @@ class Car extends Vehicle {
   Car(String brand, String year) : super(brand, year);
   
 }
+// inheritence may method or properties sub inherit hota hai
