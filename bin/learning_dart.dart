@@ -21,7 +21,11 @@ void main() {
 //n print(logger == logger1);
 // print(logger2 == logger3);
 
-Person per = Person().setName("Ahsan").setAge(10);
-print(per.name);
-print(per.age);
+// Person per = Person().setName("Ahsan").setAge(10);
+// print(per.name);
+// print(per.age);
+
+var user = User();
+user.name = "Ahsan";
+print(user.name);
 }
