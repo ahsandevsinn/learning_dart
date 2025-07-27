@@ -1,6 +1,7 @@
 import 'package:learning_dart/Constructor/factory_constructor.dart';
+import 'package:learning_dart/Inheritance/inheritence.dart';
 import 'package:learning_dart/Null_Safety/null_safety.dart';
-import 'package:learning_dart/OOP/class.dart';
+
 
 void main() {
 // Functions.greet(20, 10);
@@ -31,7 +32,16 @@ void main() {
 
 // print(MyClass.count);
 // MyClass.displayCount();
+// Dog dog = Dog();
+// dog.name = "Bob";
+// print(dog.name);
+
+// Child child = Child();
+// child.name = "Ahsan";
+// child.child();
+// child.parent();
+// child.;
+
 Dog dog = Dog();
-dog.name = "Bob";
-print(dog.name);
+dog.makeSound();
 }

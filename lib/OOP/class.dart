@@ -91,4 +91,26 @@ class Dog extends Animal {
   }
 }
 
+class GrandParent {
+  String? name;
+  int? age;
+  
 
+  GrandParent(){
+    print("Grand Parent Constructor Called");
+  }  
+ 
+
+}
+
+class Parent extends GrandParent{
+  parent(){
+    print("parent name $name, parent age $age");
+  }  
+}
+
+class Child extends Parent {
+  child(){
+    print("child name $name, child age $age");
+  }
+}
