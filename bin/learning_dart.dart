@@ -1,4 +1,5 @@
 import 'package:learning_dart/Constructor/factory_constructor.dart';
+import 'package:learning_dart/Inheritance/abstract_class.dart';
 import 'package:learning_dart/Inheritance/inheritence.dart';
 import 'package:learning_dart/Null_Safety/null_safety.dart';
 
@@ -45,6 +46,12 @@ void main() {
 // Dog dog = Dog();
 // dog.makeSound();
 
-Vehicle vehicle = Vehicle("BMW", "2025");
-print(vehicle.brand);
+// Vehicle vehicle = Vehicle("BMW", "2025");
+// print(vehicle.brand);
+
+NetworkApiService service = NetworkApiService();
+service.getApi();
+service.postApi("Hello");
+
+
 }
