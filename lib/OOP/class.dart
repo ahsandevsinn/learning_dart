@@ -87,3 +87,10 @@ class User {
 
 
 }
+
+class MyClass {
+  static int count = 0;
+  static displayCount (){
+    print("count $count");
+  }
+}

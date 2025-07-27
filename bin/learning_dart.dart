@@ -25,7 +25,10 @@ void main() {
 // print(per.name);
 // print(per.age);
 
-var user = User();
-user.name = "Ahsan";
-print(user.name);
+// var user = User();
+// user.name = "Ahsan";
+// print(user.name);
+
+print(MyClass.count);
+MyClass.displayCount();
 }
