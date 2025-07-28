@@ -1,4 +1,5 @@
 import 'package:learning_dart/Constructor/factory_constructor.dart';
+import 'package:learning_dart/Inheritance/future.dart';
 import 'package:learning_dart/Inheritance/interface.dart';
 
 import 'package:learning_dart/Null_Safety/null_safety.dart';
@@ -56,6 +57,12 @@ void main() {
 // Person per = Person();
 // per.display();
 
-BaseApiServices services = BaseApiServices();
-services.get();
+// BaseApiServices services = BaseApiServices();
+// servicces.get();
+
+FutureClass.fetchData();
+
+Future.delayed(Duration(seconds: 3),(){
+  print("Load in 3 seconds");
+});
 }
