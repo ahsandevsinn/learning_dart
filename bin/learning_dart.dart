@@ -5,7 +5,7 @@ import 'package:learning_dart/Inheritance/interface.dart';
 import 'package:learning_dart/Null_Safety/null_safety.dart';
 
 
-void main() {
+void main() async{
 // Functions.greet(20, 10);
 // NullSafety.nullSafety();
 // NullSafety.greet(name: "Ahsan");
@@ -59,14 +59,16 @@ void main() {
 
 // BaseApiServices services = BaseApiServices();
 // servicces.get();
+print("fetching");
+var result = await FutureClass.fetchData();
+print(result);
+print("completed");
 
-FutureClass.fetchData();
-
-Future.delayed(Duration(seconds: 3),(){
-  print("Load in 3 seconds");
-}).then((value){
-  print("value $value");
-}).catchError((e){
-  print(e.toString());
-});
+// Future.delayed(Duration(seconds: 3),(){
+//   print("Load in 3 seconds");
+// }).then((value){
+//   print("value $value");
+// }).catchError((e){
+//   print(e.toString());
+// });
 }
