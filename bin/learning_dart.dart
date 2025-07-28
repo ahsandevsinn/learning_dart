@@ -64,5 +64,9 @@ FutureClass.fetchData();
 
 Future.delayed(Duration(seconds: 3),(){
   print("Load in 3 seconds");
+}).then((value){
+  print("value $value");
+}).catchError((e){
+  print(e.toString());
 });
 }
