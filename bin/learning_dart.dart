@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:learning_dart/Constructor/factory_constructor.dart';
 import 'package:learning_dart/Inheritance/future.dart';
 import 'package:learning_dart/Inheritance/interface.dart';
@@ -60,10 +62,10 @@ void main() async{
 
 // BaseApiServices services = BaseApiServices();
 // servicces.get();
-print("fetching");
-var result = await FutureClass.fetchData();
-print(result);
-print("completed");
+// print("fetching");
+// var result = await FutureClass.fetchData();
+// print(result);
+// print("completed");
 
 // Future.delayed(Duration(seconds: 3),(){
 //   print("Load in 3 seconds");
@@ -72,12 +74,21 @@ print("completed");
 // }).catchError((e){
 //   print(e.toString());
 // });
-StreamClass stream = StreamClass();
-Stream<int> numberStream = Stream.periodic(
-  Duration(seconds: 1),
-  (count) => count,
-);
-numberStream.listen((value){
+// StreamClass stream = StreamClass();
+// Stream<int> numberStream = Stream.periodic(
+//   Duration(seconds: 1),
+//   (count) => count,
+// );
+// numberStream.listen((value){
+//   print("value $value");
+// });
+StreamController<String> controller = StreamController();
+controller.stream.listen((value){
   print("value $value");
 });
+
+controller.add("Hello World");
+controller.add("Hello Ahsan");
+
+controller.close();
 }
