@@ -74,7 +74,6 @@ void main() async{
 // }).catchError((e){
 //   print(e.toString());
 // });
-// StreamClass stream = StreamClass();
 // Stream<int> numberStream = Stream.periodic(
 //   Duration(seconds: 1),
 //   (count) => count,
@@ -82,13 +81,33 @@ void main() async{
 // numberStream.listen((value){
 //   print("value $value");
 // });
-StreamController<String> controller = StreamController();
-controller.stream.listen((value){
-  print("value $value");
-});
+// StreamController<String> controller = StreamController();
+// controller.stream.listen((value){
+//   print("value $value");
+// });
 
-controller.add("Hello World");
-controller.add("Hello Ahsan");
+// controller.add("Hello World");
+// controller.add("Hello Ahsan");
 
-controller.close();
+// controller.close();
+// StreamClass stream = StreamClass();
+// getNumbers();
+// }
+//   Stream<int> getNumbers() async* {
+//     for (var i = 0; i < 5; i++) {
+//       await Future.delayed(Duration(seconds: 3));
+//       print("Sending: $i");
+//       yield i;
+//     }
+
+
+try {
+  double getNum = 10/5;
+  print("getNum $getNum");
+} catch (e) {
+  print(e.toString());
+  
+} finally{
+  print("Error");
 }
+  }
