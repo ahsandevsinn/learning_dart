@@ -2,14 +2,14 @@ import 'dart:async';
 
 import 'package:learning_dart/Constructor/factory_constructor.dart';
 import 'package:learning_dart/Exception/exception.dart';
+import 'package:learning_dart/Extension/extension.dart';
 import 'package:learning_dart/Inheritance/future.dart';
 import 'package:learning_dart/Inheritance/interface.dart';
 
 import 'package:learning_dart/Null_Safety/null_safety.dart';
 import 'package:learning_dart/Stream/stream.dart';
 
-
-void main() async{
+void main() async {
 // Functions.greet(20, 10);
 // NullSafety.nullSafety();
 // NullSafety.greet(name: "Ahsan");
@@ -101,19 +101,55 @@ void main() async{
 //       yield i;
 //     }
 
-
 // try {
 //   double getNum = 10/5;
 //   print("getNum $getNum");
 // } catch (e) {
- //   print(e.toString());
-  
+  //   print(e.toString());
+
 // } finally{
 //   print("Error");
 // }
- try {
-    ExceptionClass.checkAge(16);
-  } catch (e) {
-    print("Caught error: $e");
+//  try {
+//     ExceptionClass.checkAge(16);
+//   } catch (e) {
+//     print("Caught error: $e");
+//   }
+  print("Hello World".captalize);
+  checkRole(Roles.viewer);
+  checkRoleWithIf(Roles.viewer);
+}
+
+checkRole(Roles role) {
+  switch (role) {
+    case Roles.admin:
+      print("Role Admin");
+      break;
+    case Roles.user:
+      print("Role User");
+      break;
+
+    case Roles.viewer:
+      print("Role Viewer");
+    default:
   }
+}
+
+
+checkRoleWithIf(Roles role){
+  if ("role" == Roles.admin) {
+    print("Role Admin");
+    
+  }else if("role" == Roles.user){
+
+    print("Role User");
+  }else {
+    print("Role Viewwer");
   }
+}
+
+enum Roles {
+  viewer,
+  admin,
+  user,
+}
