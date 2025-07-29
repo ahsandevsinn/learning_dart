@@ -3,6 +3,7 @@ import 'package:learning_dart/Inheritance/future.dart';
 import 'package:learning_dart/Inheritance/interface.dart';
 
 import 'package:learning_dart/Null_Safety/null_safety.dart';
+import 'package:learning_dart/Stream/stream.dart';
 
 
 void main() async{
@@ -71,4 +72,12 @@ print("completed");
 // }).catchError((e){
 //   print(e.toString());
 // });
+StreamClass stream = StreamClass();
+Stream<int> numberStream = Stream.periodic(
+  Duration(seconds: 1),
+  (count) => count,
+);
+numberStream.listen((value){
+  print("value $value");
+});
 }
