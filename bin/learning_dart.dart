@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:learning_dart/Constructor/factory_constructor.dart';
+import 'package:learning_dart/Exception/exception.dart';
 import 'package:learning_dart/Inheritance/future.dart';
 import 'package:learning_dart/Inheritance/interface.dart';
 
@@ -101,13 +102,18 @@ void main() async{
 //     }
 
 
-try {
-  double getNum = 10/5;
-  print("getNum $getNum");
-} catch (e) {
-  print(e.toString());
+// try {
+//   double getNum = 10/5;
+//   print("getNum $getNum");
+// } catch (e) {
+ //   print(e.toString());
   
-} finally{
-  print("Error");
-}
+// } finally{
+//   print("Error");
+// }
+ try {
+    ExceptionClass.checkAge(16);
+  } catch (e) {
+    print("Caught error: $e");
+  }
   }
