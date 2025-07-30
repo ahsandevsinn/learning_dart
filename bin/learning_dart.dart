@@ -4,6 +4,7 @@ import 'package:learning_dart/Collections/collections.dart';
 import 'package:learning_dart/Constructor/factory_constructor.dart';
 import 'package:learning_dart/Exception/exception.dart';
 import 'package:learning_dart/Extension/extension.dart';
+import 'package:learning_dart/Function/function.dart';
 import 'package:learning_dart/Inheritance/future.dart';
 import 'package:learning_dart/Inheritance/interface.dart';
 
@@ -119,9 +120,10 @@ void main() async {
   // print("Hello World".captalize);
   // checkRole(Roles.viewer);
   // checkRoleWithIf(Roles.viewer);
-
+  int add(a,b)=> a+b;
   CollectionsClass.listFunction();
   CollectionsClass.mapFunction();
+  FunctionClass.calculation(10, 20, add);
 }
 
 checkRole(Roles role) {
