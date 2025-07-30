@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:learning_dart/Collections/collections.dart';
 import 'package:learning_dart/Constructor/factory_constructor.dart';
 import 'package:learning_dart/Exception/exception.dart';
 import 'package:learning_dart/Extension/extension.dart';
@@ -115,9 +116,12 @@ void main() async {
 //   } catch (e) {
 //     print("Caught error: $e");
 //   }
-  print("Hello World".captalize);
-  checkRole(Roles.viewer);
-  checkRoleWithIf(Roles.viewer);
+  // print("Hello World".captalize);
+  // checkRole(Roles.viewer);
+  // checkRoleWithIf(Roles.viewer);
+
+  CollectionsClass.listFunction();
+  CollectionsClass.mapFunction();
 }
 
 checkRole(Roles role) {
