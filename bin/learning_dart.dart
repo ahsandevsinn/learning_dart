@@ -124,6 +124,8 @@ void main() async {
   CollectionsClass.listFunction();
   CollectionsClass.mapFunction();
   FunctionClass.calculation(10, 20, add);
+
+  FunctionClass.greet(FunctionClass.sayHello);
 }
 
 checkRole(Roles role) {
