@@ -5,7 +5,9 @@ class CollectionsClass {
     // List<int> newNumbers = numbers.map((e)=> e*2).toList();
     // List<int> newNumbers = numbers.where((e)=> e.isEven).toList();
     // int newNumbers = numbers.fold(0,(prev,element)=> prev+element);
-    int newNumbers = numbers.reduce((a,b)=> a+b);
+    // int newNumbers = numbers.reduce((a,b)=> a+b);
+    // List<int> newNumbers = List.generate(5,(index)=> index);
+    List<int> newNumbers = List.from(numbers);
     print(newNumbers);
   }  
 
