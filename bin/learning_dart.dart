@@ -7,9 +7,10 @@ import 'package:learning_dart/Extension/extension.dart';
 import 'package:learning_dart/Function/function.dart';
 import 'package:learning_dart/Inheritance/future.dart';
 import 'package:learning_dart/Inheritance/interface.dart';
-
+import 'dart:isolate';
 import 'package:learning_dart/Null_Safety/null_safety.dart';
 import 'package:learning_dart/Stream/stream.dart';
+// import 'package:flutter/foundation.dart';
 
 void main() async {
 // Functions.greet(20, 10);
@@ -126,6 +127,22 @@ void main() async {
   FunctionClass.calculation(10, 20, add);
 
   FunctionClass.greet(FunctionClass.sayHello);
+  // final result = await compute();
+   heavyTask(SendPort sendPort) {
+  int sum = 0;
+  for (int i = 0; i < 100000000; i++) {
+    sum += i;
+  }
+  return sendPort.send(sum);
+}
+
+ReceivePort receivePort = ReceivePort();
+
+await Isolate.spawn(heavyTask, receivePort.sendPort);
+
+receivePort.listen((value){
+  print("value $value");
+});
 }
 
 checkRole(Roles role) {
