@@ -143,9 +143,11 @@ await Isolate.spawn(heavyTask, receivePort.sendPort);
 receivePort.listen((value){
   print("value $value");
 });
+   var _ = 1; 
+      print(_);
 }
 
-checkRole(Roles role) {
+checkRole(Roles role) { 
   switch (role) {
     case Roles.admin:
       print("Role Admin");
