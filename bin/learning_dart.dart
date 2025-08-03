@@ -10,6 +10,7 @@ import 'package:learning_dart/Inheritance/interface.dart';
 import 'dart:isolate';
 import 'package:learning_dart/Null_Safety/null_safety.dart';
 import 'package:learning_dart/Stream/stream.dart';
+import 'package:learning_dart/Variables/variables.dart';
 // import 'package:flutter/foundation.dart';
 
 void main() async {
@@ -145,6 +146,7 @@ void main() async {
 // });
 //    var _ = 1; 
 //       print(_);
+Variables.variables();
 }
 
 checkRole(Roles role) { 

@@ -1,4 +1,5 @@
 class Variables {
+static late String userName;
   static void variables() {
     //  there are three types of variables
     // 1 Static Variables
@@ -84,5 +85,18 @@ class Variables {
 
 const age = 29;
 //  const may value fixed rehti hai jasisy constant hota
+dynamic a = "43";
+a = 4;
+// dynamic may hum kisi bhi data type ki value assign karsaktay hain
+  userName = "Ahsan";
+  print(userName);
+
+  // variable scope 
+  //  void greet(){
+  //   var name1 = "Ahsan";
+  //  }
+  // function scope variable function may rehta hai
+   
+   
   }
 }
