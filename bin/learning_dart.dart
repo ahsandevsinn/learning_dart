@@ -121,30 +121,30 @@ void main() async {
   // print("Hello World".captalize);
   // checkRole(Roles.viewer);
   // checkRoleWithIf(Roles.viewer);
-  int add(a,b)=> a+b;
-  CollectionsClass.listFunction();
-  CollectionsClass.mapFunction();
-  FunctionClass.calculation(10, 20, add);
+  // int add(a,b)=> a+b;
+  // CollectionsClass.listFunction();
+  // CollectionsClass.mapFunction();
+  // FunctionClass.calculation(10, 20, add);
 
-  FunctionClass.greet(FunctionClass.sayHello);
-  // final result = await compute();
-   heavyTask(SendPort sendPort) {
-  int sum = 0;
-  for (int i = 0; i < 100000000; i++) {
-    sum += i;
-  }
-  return sendPort.send(sum);
-}
+//   FunctionClass.greet(FunctionClass.sayHello);
+//   // final result = await compute();
+//    heavyTask(SendPort sendPort) {
+//   int sum = 0;
+//   for (int i = 0; i < 100000000; i++) {
+//     sum += i;
+//   }
+//   return sendPort.send(sum);
+// }
 
-ReceivePort receivePort = ReceivePort();
+// ReceivePort receivePort = ReceivePort();
 
-await Isolate.spawn(heavyTask, receivePort.sendPort);
+// await Isolate.spawn(heavyTask, receivePort.sendPort);
 
-receivePort.listen((value){
-  print("value $value");
-});
-   var _ = 1; 
-      print(_);
+// receivePort.listen((value){
+//   print("value $value");
+// });
+//    var _ = 1; 
+//       print(_);
 }
 
 checkRole(Roles role) { 

@@ -76,5 +76,13 @@ class Variables {
       // No Change After Assign
       // Flexible with logic
    
+  var name = "Ahsan";
+  // var name may "Ahsan" String hai jab may var may koi value assign kartay hain to value ki base per uski data type define hoti ismay "Ahsan" aik string hai to var ki data type bhi String hai or ismay sirf dobara jab vale ko assign karna hoga same variable may to string value hi assign hogi
+  final lastname = "Khan";
+  // lastname = ""
+  // final may hum same variable may value dobara assign ni karsaktay jab wo first time set hoti hai
+
+const age = 29;
+//  const may value fixed rehti hai jasisy constant hota
   }
 }
