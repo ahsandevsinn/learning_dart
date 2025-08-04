@@ -104,7 +104,20 @@ class UnaryPostfix {
 var a = 4;
 print(a++);
 print(a);
+// ++ post decrement
 print(a--);
 print(a);
+// post function call
+sayHello();
+// index access
+List names = ['Ahsan','khan','Ali'];
+print(names[0]);
+List<int>? age = null;
+print(age);
   }
+}
+
+
+sayHello(){
+  print("Hello");
 }
