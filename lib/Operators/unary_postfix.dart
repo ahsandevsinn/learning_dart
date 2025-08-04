@@ -99,5 +99,12 @@ class UnaryPostfix {
 // o = o++ - --o + ++o - o-- + --o - ++o;
 // o = 55 - 55 + 56 - 56 + 55 - 56;
 // print(o);
+
+// ++ post increment
+var a = 4;
+print(a++);
+print(a);
+print(a--);
+print(a);
   }
 }

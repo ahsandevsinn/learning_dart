@@ -32,7 +32,7 @@ Vehicle(this.brand,this.year);
 
 class Car extends Vehicle {
   
-  Car(String brand, String year) : super(brand, year);
+  Car(String super.brand, String super.year);
   
 }
 // inheritence may method or properties sub inherit hota hai

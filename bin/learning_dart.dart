@@ -1,15 +1,5 @@
-import 'dart:async';
 
-import 'package:learning_dart/Collections/collections.dart';
-import 'package:learning_dart/Constructor/factory_constructor.dart';
-import 'package:learning_dart/Exception/exception.dart';
-import 'package:learning_dart/Extension/extension.dart';
-import 'package:learning_dart/Function/function.dart';
-import 'package:learning_dart/Inheritance/future.dart';
-import 'package:learning_dart/Inheritance/interface.dart';
-import 'dart:isolate';
-import 'package:learning_dart/Null_Safety/null_safety.dart';
-import 'package:learning_dart/Stream/stream.dart';
+import 'package:learning_dart/Operators/unary_postfix.dart';
 import 'package:learning_dart/Variables/variables.dart';
 // import 'package:flutter/foundation.dart';
 
@@ -146,7 +136,9 @@ void main() async {
 // });
 //    var _ = 1; 
 //       print(_);
-Variables.variables();
+// Variables.variables();
+UnaryPostfix.postfix();
+
 }
 
 checkRole(Roles role) { 
