@@ -77,26 +77,42 @@ static late String userName;
       // No Change After Assign
       // Flexible with logic
    
-  var name = "Ahsan";
-  // var name may "Ahsan" String hai jab may var may koi value assign kartay hain to value ki base per uski data type define hoti ismay "Ahsan" aik string hai to var ki data type bhi String hai or ismay sirf dobara jab vale ko assign karna hoga same variable may to string value hi assign hogi
-  final lastname = "Khan";
+  // var name = "Ahsan";
+  // // var name may "Ahsan" String hai jab may var may koi value assign kartay hain to value ki base per uski data type define hoti ismay "Ahsan" aik string hai to var ki data type bhi String hai or ismay sirf dobara jab vale ko assign karna hoga same variable may to string value hi assign hogi
+  // final lastname = "Khan";
   // lastname = ""
   // final may hum same variable may value dobara assign ni karsaktay jab wo first time set hoti hai
 
-const age = 29;
-//  const may value fixed rehti hai jasisy constant hota
-dynamic a = "43";
-a = 4;
-// dynamic may hum kisi bhi data type ki value assign karsaktay hain
-  userName = "Ahsan";
-  print(userName);
+// const age = 29;
+// //  const may value fixed rehti hai jasisy constant hota
+// dynamic a = "43";
+// a = 4;
+// // dynamic may hum kisi bhi data type ki value assign karsaktay hain
+//   userName = "Ahsan";
+//   print(userName);
 
   // variable scope 
   //  void greet(){
   //   var name1 = "Ahsan";
   //  }
   // function scope variable function may rehta hai
+  //  String name = "Ali";
    
-   
+  //  print(name);
+
+  // String? email;
+  // email = null;
+
+  // print(email);
+  display("dsds");
+
   }
+}
+
+display(String? name){
+ if (name != null) {
+   print("Welcome $name");
+ }else{
+  print("Name not found");
+ }
 }

@@ -136,8 +136,8 @@ void main() async {
 // });
 //    var _ = 1; 
 //       print(_);
-// Variables.variables();
-UnaryPostfix.postfix();
+Variables.variables();  
+
 
 }
 

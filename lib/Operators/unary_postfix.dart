@@ -114,6 +114,8 @@ List names = ['Ahsan','khan','Ali'];
 print(names[0]);
 List<int>? age = null;
 print(age);
+String? name = "Ahsan";
+print(name!);
   }
 }
 
